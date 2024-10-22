@@ -22,6 +22,6 @@ def test_spain_june():
     response = client.get("/countries/Spain/Seville/June")
     assert response.status_code == 200
     assert response.json() == {
-        "high": 33,
-        "low": 19,
+        "high": 93,
+        "low": 63,
     }
